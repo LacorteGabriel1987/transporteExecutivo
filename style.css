@@ -1,0 +1,51 @@
+* {
+    font-family: 14px sans-serif;
+}
+
+.banner {
+    text-align: justify;
+    background-color: #D4F6CC;
+}
+
+.banner img{
+    width: 100%;
+    padding: 0 0 30px 0;
+}
+
+#frota {
+    text-align: justify;
+    background-color: #FCF8E8;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.btgrid {
+    background-color: #FCF8E8;
+    grid-row:span;
+}
+
+
+
+
+.destinos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.destinos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;		
+	padding: 30px 20px;	
+	border: 2px solid #000000;
+	border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.minas{
+    width:100%;
+    height: 150px;
+}
+
