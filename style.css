@@ -1,5 +1,6 @@
 * {
     font-family: 14px sans-serif;
+   
 }
 
 .banner {
@@ -8,7 +9,6 @@
 }
 
 .banner img{
-    width: 100%;
     padding: 0 0 30px 0;
 }
 
@@ -24,28 +24,59 @@
     grid-row:span;
 }
 
+.lugares {
+    text-align: center;
+    padding-bottom: 30px;
+      
+}
 
 
-
-.destinos {
-	width: 940px;
-	margin: 0 auto;
+.destinos {	
 	padding: 50px 0;
+    background-color: #E7F6F2;
+    padding-left: 100px;
+    text-align: center;
 }
 
 .destinos li {
 	display: inline-block;
 	text-align: center;
-	width: 30%;		
-	padding: 30px 20px;	
-	border: 2px solid #000000;
-	border-radius: 10px;
-    margin: 10px;
+	width: 30%;	
+	margin: 0 1.5%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 10px; 
+    margin: 70px;
     
 }
 
-.minas{
-    width:100%;
-    height: 150px;
+.destinos li:hover {
+    border-color: rgb(255, 0, 43);
+    background: rgb(158, 187, 221);
+	transform: scale(1.2);
+    box-shadow: 2px 2px 5px 2px black;
 }
+
+.minas{
+    width:300px;
+    height: 200px;
+}
+
+.faleconosco {
+    background: linear-gradient(45deg, #FEFBF6, #395B64, #CEE5D0,#94B49F);
+    padding: 10px;
+}
+
+.formulario {
+    width: 520px;
+    margin: 30px;
+    
+}
+
+
+    
+
+
+
 
