@@ -1,21 +1,27 @@
 
-.carousel-item {
-    width: 100%;
-    height: auto;
-       
+.title {
+    font: 14px black;
+    background-color: #94B49F;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 7px;
+
 }
 
+.carousel-item {
+    width: 100%;
+    height: auto;       
+}
 
-.banner {
+#empresa {
     text-align: justify;
     background-color: #D4F6CC;
     margin-top: -20px;
 }
 
-.banner img{
+#empresa img{
     padding: 0 0 10px 0;
-    max-width: 100%;
-    
+    max-width: 100%;    
 }
 
 #frota {
@@ -77,8 +83,7 @@
 
 .formulario {
     max-width:520px;
-    margin: 30px;
-    
+    margin: 30px;    
 }
 
 
