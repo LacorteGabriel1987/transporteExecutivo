@@ -1,34 +1,35 @@
-* {
-    font-family: 14px sans-serif;
-   
-}
 
-body, h2{
-    max-width: 2080px;
-    width: auto;
+.carousel-item {
+    width: 100%;
     height: auto;
-
+       
 }
+
 
 .banner {
     text-align: justify;
     background-color: #D4F6CC;
+    margin-top: -20px;
 }
 
 .banner img{
-    padding: 0 0 30px 0;
+    padding: 0 0 10px 0;
+    max-width: 100%;
+    
 }
 
 #frota {
     text-align: justify;
     background-color: #FCF8E8;
-    margin: 10px;
+    margin: 0;
     padding-left: 50px;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-.btgrid {
-    background-color: #FCF8E8;
-    grid-row:span;
+.grid {
+    border: 110px black;
 }
 
 .lugares {
@@ -37,35 +38,29 @@ body, h2{
       
 }
 
-.grid{
-    max-width: 1280%;
-    width: 100%;
-}
-
 .destinos {	
 	padding: 50px 0;
-    background-color: #E7F6F2;
-    padding-left: 100px;
+    background-color: #E7F6F2;    
     text-align: center;
+    margin: 0;
 }
 
 .destinos li {
 	display: inline-block;
 	text-align: center;
-	width: 30%;	
-	margin: 0 1.5%;
+	width: 30%;		
 	padding: 10px;
 	box-sizing: border-box;
 	border: 1px solid #000000;
 	border-radius: 10px; 
-    margin: 70px;
+    margin: 10px;
     
 }
 
 .destinos li:hover {
     border-color: rgb(255, 0, 43);
-    background: rgb(158, 187, 221);
-	transform: scale(1.2);
+    background: rgb(197, 252, 252);
+	transform: scale(1.1);
     box-shadow: 2px 2px 5px 2px black;
 }
 
@@ -75,22 +70,19 @@ body, h2{
 }
 
 .faleconosco {
-    background: linear-gradient(45deg, #FEFBF6, #395B64, #CEE5D0,#94B49F);
+    background: linear-gradient(45deg, #FEFBF6, #396460, #CEE5D0,#94B49F);
     padding: 10px;
+    
 }
 
 .formulario {
-    max-width: 1280px;
-    width: 520px;
+    max-width:520px;
     margin: 30px;
     
 }
 
 
-@media screen and (max-width: 2080px){
-    .destinos, .destinos li, 
 
-}
 
     
 
